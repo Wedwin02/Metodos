@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button btnComida;
+    Button btnbelleza;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         // estos botones son de testing y seran destruidos mas adelante
         btnComida = findViewById(R.id.btnComida);
+        btnbelleza = findViewById(R.id.btnbelleza);
 
 
         //estos metodos son de testing y seran destruidos mas adelante
@@ -24,7 +26,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //aqui para abrir la activity que se necesite testear
-                Intent frm = new Intent(MainActivity.this,Principal_Drawer.class);
+                Intent frm = new Intent(MainActivity.this,Serviciocomidas.class);
+                startActivity(frm);
+            }
+        });
+        btnbelleza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //aqui para abrir la activity que se necesite testear
+                Intent frm = new Intent(MainActivity.this,Belleza.class);
                 startActivity(frm);
             }
         });

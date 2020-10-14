@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.home.HomeFragment">
-
+    tools:context=".Serviciocomidas">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,94 +24,103 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnuno"
+
+                    android:id="@+id/btnComida1"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="1" />
+                    android:text="1"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btndos"
+
+                    android:id="@+id/btnComida2"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="2" />
+                    android:text="2"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btntres"
+
+                    android:id="@+id/btnComida3"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="3" />
+                    android:text="3"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btncuatro"
+
+                    android:id="@+id/btnComida4"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="4" />
+                    android:text="4"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btncinco"
+
+                    android:id="@+id/btnComida5"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="5" />
+                    android:text="5"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btnseis"
+
+                    android:id="@+id/btnComida6"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="6" />
+                    android:text="6"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btnsiete"
+
+                    android:id="@+id/btnComida7"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="7" />
+                    android:text="7"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btnocho"
+
+                    android:id="@+id/btnComida8"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="8" />
+                    android:text="8"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btnnueve"
+
+                    android:id="@+id/btnComida9"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="9" />
+                    android:text="9"
+                    android:textColor="@drawable/redondotexto" />
 
 
             </LinearLayout>
@@ -133,7 +141,8 @@
                 android:rowCount="5">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idBelleza1"
+
+                    android:id="@+id/idComidaRapida1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -170,7 +179,8 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idComidaTipica"
+
+                    android:id="@+id/idComidaTipica2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -207,7 +217,8 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idComidaEjecutiva"
+
+                    android:id="@+id/idcomidaEjecutiva3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -244,7 +255,8 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idPasteleria"
+
+                    android:id="@+id/idPasteleria4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -281,7 +293,8 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idBebidas"
+
+                    android:id="@+id/idBebidas5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -323,5 +336,4 @@
 
         </ScrollView>
     </LinearLayout>
-
 </LinearLayout>

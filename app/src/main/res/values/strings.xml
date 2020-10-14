@@ -24,6 +24,12 @@
     <string name="Menu_suario">Usuario</string>
     <string name="Menu_nombre">Juan Perez</string>
 
+    <string name="belleza1">MAQUILLAJES</string>
+    <string name="belleza2">SHAMPOO</string>
+    <string name="belleza3">CREMAS</string>
+    <string name="belleza4">TINTES</string>
+    <string name="belleza5">PERFUMES</string>
+
 
     <!--
     McNerio: se tiene que usar estandares para que no halla inconsistencias, para los names de las tag

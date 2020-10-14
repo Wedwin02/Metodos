@@ -1,23 +1,18 @@
 package com.company.hubdeliver.ui.home;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.company.hubdeliver.LoginActivity;
 import com.company.hubdeliver.MenuRapido;
 import com.company.hubdeliver.R;
 
@@ -49,7 +44,7 @@ public class HomeFragment extends Fragment {
 
 
         //cardview vertical
-        this.idComidaRapida = root.findViewById(R.id.idComidaRapida);
+        this.idComidaRapida = root.findViewById(R.id.idBelleza1);
         this.idComidaTipica = root.findViewById(R.id.idComidaTipica);
         this.idComidaEjecutiva = root.findViewById(R.id.idComidaEjecutiva);
         this.idPasteleria = root.findViewById(R.id.idPasteleria);

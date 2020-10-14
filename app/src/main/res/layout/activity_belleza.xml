@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.home.HomeFragment">
-
-
+    tools:context=".Belleza">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,94 +22,103 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btnuno"
+
+                    android:id="@+id/btnBelleza1"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="1" />
+                    android:text="1"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btndos"
+
+                    android:id="@+id/btnBelleza2"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="2" />
+                    android:text="2"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btntres"
+
+                    android:id="@+id/btnBelleza3"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="3" />
+                    android:text="3"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btncuatro"
+
+                    android:id="@+id/btnBelleza4"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="4" />
+                    android:text="4"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btncinco"
+
+                    android:id="@+id/btnBelleza5"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="5" />
+                    android:text="5"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btnseis"
+
+                    android:id="@+id/btnBelleza6"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="6" />
+                    android:text="6"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btnsiete"
+
+                    android:id="@+id/btnBelleza7"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="7" />
+                    android:text="7"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btnocho"
+
+                    android:id="@+id/btnBelleza8"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="8" />
+                    android:text="8"
+                    android:textColor="@drawable/redondotexto" />
 
                 <Button
-                    android:id="@+id/btnnueve"
+
+                    android:id="@+id/btnBelleza9"
                     android:layout_width="wrap_content"
                     android:layout_height="88dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/redondplantilla"
-                    android:textColor="@drawable/redondotexto"
-                    android:text="9" />
+                    android:text="9"
+                    android:textColor="@drawable/redondotexto" />
 
 
             </LinearLayout>
@@ -133,7 +139,8 @@
                 android:rowCount="5">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idBelleza1"
+
+                    android:id="@+id/idBellezaTintes"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -152,13 +159,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/crapida" />
+                            app:srcCompat="@drawable/maquillaje" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="@string/comida_Rapida"
+                            android:text="@string/belleza1"
                             android:textAlignment="center"
                             android:textSize="18sp"
                             android:textStyle="bold">
@@ -170,7 +177,8 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idComidaTipica"
+
+                    android:id="@+id/idBellezaShompoo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -189,13 +197,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/tipica" />
+                            app:srcCompat="@drawable/shampoo" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="@string/comida_Tipica"
+                            android:text="@string/belleza2"
                             android:textAlignment="center"
                             android:textSize="18sp"
                             android:textStyle="bold">
@@ -207,7 +215,8 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idComidaEjecutiva"
+
+                    android:id="@+id/idBellezaMaquillaje"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -226,13 +235,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ejecutiva" />
+                            app:srcCompat="@drawable/perfumes" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="@string/comida_ejecutiva"
+                            android:text="@string/belleza5"
                             android:textAlignment="center"
                             android:textSize="18sp"
                             android:textStyle="bold">
@@ -244,7 +253,8 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idPasteleria"
+
+                    android:id="@+id/idBellezaCremas"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -263,13 +273,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/pasteleria" />
+                            app:srcCompat="@drawable/tintes" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="@string/pasteleria"
+                            android:text="@string/belleza4"
                             android:textAlignment="center"
                             android:textSize="18sp"
                             android:textStyle="bold">
@@ -281,7 +291,8 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idBebidas"
+
+                    android:id="@+id/idBellezaPerfumes"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -300,13 +311,13 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/bebidas" />
+                            app:srcCompat="@drawable/cremas" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
-                            android:text="@string/bebidas"
+                            android:text="@string/belleza3"
                             android:textAlignment="center"
                             android:textSize="18sp"
                             android:textStyle="bold">
@@ -323,5 +334,4 @@
 
         </ScrollView>
     </LinearLayout>
-
 </LinearLayout>
