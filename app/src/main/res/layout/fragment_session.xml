@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/sriracha"
+        android:gravity="center"
+        android:text="@string/lbl_title_reg"
+        android:textColor="#EF6C00"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+
+            android:id="@+id/txtnombre"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="25dp"
+            android:ems="10"
+            android:hint="@string/hint_nombre_reg"
+            android:inputType="textPersonName"
+            android:textColor="#EF6C00" />
+
+        <EditText
+            android:id="@+id/txtpass"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:ems="10"
+            android:hint="@string/hint_password_reg"
+            android:inputType="textPassword"
+            android:textColor="#EF6C00" />
+
+        <EditText
+
+            android:id="@+id/txtnumero"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:ems="10"
+            android:hint="@string/hint_numero_reg"
+            android:inputType="phone"
+            android:textColor="#EF6C00" />
+
+        <Button
+
+            android:id="@+id/btnAceptarSession"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/colorplantilla"
+            android:onClick="btnRegistrar_onClick"
+            android:text="@string/btn_aceptar_reg"
+            android:textColor="@drawable/txtcambios"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>
