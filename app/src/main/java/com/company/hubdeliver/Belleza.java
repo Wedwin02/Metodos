@@ -5,6 +5,8 @@ import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -168,4 +170,29 @@ public class Belleza extends AppCompatActivity {
         });
 
     }
+    public boolean onCreateOptionsMenu(Menu menu){
+        super.onCreateOptionsMenu(menu);
+        crearMenu(menu);
+        return true;
+    }
+    public boolean onOptionsItemSelected(MenuItem item){
+        super.onOptionsItemSelected(item);
+        ItemSeleccionado(item);
+        return true;
+    }
+
+    private void ItemSeleccionado(MenuItem item){
+        switch (item.getItemId()){
+            case 0:
+                Intent i = new Intent(this,RegisterActivity.class);
+                startActivity(i);
+                break;
+        }
+    }
+
+    private void crearMenu(Menu menu){
+        MenuItem item = menu.add(0,0,0,"Session Usuario");
+        item.setAlphabeticShortcut('C');
+    }
+
 }

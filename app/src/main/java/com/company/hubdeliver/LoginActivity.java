@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (validar()) {
-                    Intent i = new Intent(LoginActivity.this, Principal_Drawer.class);
+                    Intent i = new Intent(LoginActivity.this,  Belleza.class);
                     startActivity(i);
                 }
             }

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuBellleza"></activity>
+        <activity android:name=".comprado"></activity>
+        <activity android:name=".MenuBellleza" />
         <activity android:name=".Serviciocomidas" />
         <activity android:name=".Belleza" />
         <activity android:name=".MenuRapido" />
